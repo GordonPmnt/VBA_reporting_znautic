@@ -1,5 +1,6 @@
 Option Explicit
 Option Private Module
+
 Sub CreateAccount()
 
     Dim NewRow As ListRow
@@ -19,6 +20,7 @@ Sub CreateAccount()
     MsgBox "Compte " & NewAccountForm.TextBoxNewAccount.Value & " créé.", vbOKOnly
 
 End Sub
+
 Function DefineBFR() As String
     If NewAccountForm.OptionButtonE Then
         DefineBFR = "BFR E"
@@ -26,6 +28,7 @@ Function DefineBFR() As String
         DefineBFR = "BFR HE"
     End If
 End Function
+
 Function DefineAL() As String
     If NewAccountForm.OptionButtonAsset Then
         DefineAL = "Asset"

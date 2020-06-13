@@ -1,5 +1,6 @@
 Option Explicit
 Option Private Module
+
 Sub DeletePreviousBalance(Year, Month, Entity)
     
     Dim id As String

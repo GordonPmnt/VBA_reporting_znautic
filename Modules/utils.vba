@@ -1,5 +1,6 @@
 Option Explicit
 Option Private Module
+
 Sub SortChartOfAccounts()
     
     Sheets("COA").Activate
@@ -14,9 +15,6 @@ Sub SortChartOfAccounts()
         .Apply
     End With
     
-End Sub
-Sub SortDB()
-
 End Sub
 
 

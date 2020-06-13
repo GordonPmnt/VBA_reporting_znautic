@@ -1,5 +1,6 @@
 Option Explicit
 Option Private Module
+
 Sub ImportBalance()
 
     Dim Year As String
@@ -68,6 +69,7 @@ Sub ImportBalance()
     End If
 
 End Sub
+
 Function ImportAlreadyExists(Year, Month, Entity) As Boolean
     
     Dim ids As Range
